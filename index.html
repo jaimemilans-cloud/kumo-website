@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="scroll-smooth">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -38,7 +38,7 @@
         <a href="#specs" class="hover:text-white transition">Especificaciones</a>
         <a href="#waitlist" class="hover:text-white transition">Lista de espera</a>
       </nav>
-      <a href="#waitlist" class="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white font-medium text-xs md:text-sm px-4 py-2 rounded-full transition shadow-lg shadow-purple-500/2 font-semibold">
+      <a href="#waitlist" class="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white font-semibold text-xs md:text-sm px-4 py-2 rounded-full transition shadow-lg shadow-purple-500/20">
         Pre-Order
       </a>
     </div>
@@ -69,7 +69,7 @@
       />
       <button 
         id="btn-preorder"
-        class="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white text-sm font-semibold px-6 py-3 rounded-xl transition flex items-center justify-center gap-2 shadow-lg shadow-purple-500/25 whitespace-nowrap"
+        class="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white text-sm font-semibold px-6 py-3 rounded-xl transition flex items-center justify-center gap-2 shadow-lg shadow-purple-500/25 whitespace-nowrap cursor-pointer"
       >
         <span>Pre-Order</span>
         <i data-lucide="arrow-right" class="w-4 h-4"></i>
@@ -77,6 +77,63 @@
     </div>
     <p class="text-xs text-gray-500 mt-3">Únete a los primeros 500 usuarios en conseguir acceso prioritario.</p>
   </main>
+
+  <!-- Features Section -->
+  <section id="features" class="py-20 px-6 max-w-6xl mx-auto border-t border-white/10">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">Diseñado para el mundo real</h2>
+      <p class="text-gray-400 max-w-xl mx-auto text-sm md:text-base">Tecnología de punta adaptada a tu día a día sin complicaciones.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-white/5 p-8 rounded-2xl border border-white/10 backdrop-blur-sm">
+        <div class="w-10 h-10 rounded-lg bg-purple-500/20 flex items-center justify-center text-purple-400 mb-4">
+          <i data-lucide="shield-check" class="w-5 h-5"></i>
+        </div>
+        <h3 class="text-lg font-semibold mb-2">Privacidad Total</h3>
+        <p class="text-gray-400 text-sm">Tus datos nunca abandonan tu dispositivo. Procesamiento 100% local y seguro.</p>
+      </div>
+      <div class="bg-white/5 p-8 rounded-2xl border border-white/10 backdrop-blur-sm">
+        <div class="w-10 h-10 rounded-lg bg-pink-500/20 flex items-center justify-center text-pink-400 mb-4">
+          <i data-lucide="zap" class="w-5 h-5"></i>
+        </div>
+        <h3 class="text-lg font-semibold mb-2">Respuesta Instantánea</h3>
+        <p class="text-gray-400 text-sm">Sin latencia de red. Accede a tu asistencia de voz con velocidad de vértigo.</p>
+      </div>
+      <div class="bg-white/5 p-8 rounded-2xl border border-white/10 backdrop-blur-sm">
+        <div class="w-10 h-10 rounded-lg bg-purple-500/20 flex items-center justify-center text-purple-400 mb-4">
+          <i data-lucide="battery-charging" class="w-5 h-5"></i>
+        </div>
+        <h3 class="text-lg font-semibold mb-2">Batería de Ultratumba</h3>
+        <p class="text-gray-400 text-sm">Optimizado para aguantar jornadas completas con una sola carga.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Specs Section -->
+  <section id="specs" class="py-20 px-6 max-w-4xl mx-auto border-t border-white/10">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">Especificaciones Técnicas</h2>
+      <p class="text-gray-400 text-sm md:text-base">Potencia compacta en la palma de tu mano.</p>
+    </div>
+    <div class="space-y-4">
+      <div class="flex justify-between p-4 rounded-xl bg-white/5 border border-white/10">
+        <span class="text-gray-400 text-sm">Procesador de IA</span>
+        <span class="font-medium text-sm">Neural Engine Local v2</span>
+      </div>
+      <div class="flex justify-between p-4 rounded-xl bg-white/5 border border-white/10">
+        <span class="text-gray-400 text-sm">Conectividad</span>
+        <span class="font-medium text-sm">Bluetooth 5.3 / Wi-Fi 6</span>
+      </div>
+      <div class="flex justify-between p-4 rounded-xl bg-white/5 border border-white/10">
+        <span class="text-gray-400 text-sm">Autonomía</span>
+        <span class="font-medium text-sm">Hasta 48 horas en standby</span>
+      </div>
+      <div class="flex justify-between p-4 rounded-xl bg-white/5 border border-white/10">
+        <span class="text-gray-400 text-sm">Peso</span>
+        <span class="font-medium text-sm">18 gramos</span>
+      </div>
+    </div>
+  </section>
 
   <!-- Footer -->
   <footer class="border-t border-white/10 py-8 px-6 text-center text-xs text-gray-500">
